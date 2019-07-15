@@ -1,6 +1,8 @@
 FROM centos/ruby-25-centos7
 MAINTAINER jimmy
 
+USER root
+
 WORKDIR /app
 
 RUN yum install -y epel-release
